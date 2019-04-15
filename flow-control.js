@@ -31,27 +31,20 @@ function switchAge(age) {
 var teenager = "You are a teenager";
 switch (age) {
   case 13 :
-  console.log(teenager);
-  break;
+  return teenager;
   case 14 :
-  console.log(teenager);
-  break;
+  return teenager;
   case 15 :
-  console.log(teenager);
-  break;
+  return teenager;
   case 16 :
-  console.log(teenager);
-  break;
+  return teenager;
   case 17 :
-  console.log(teenager);
-  break;
+  return teenager;
   case 18 :
-  console.log(teenager);
-  break;
+  return teenager;
   case 19 :
-  console.log(teenager);
-  break;
+  return teenager;
   default :
-  console.log("You have an age");
+  return "You have an age";
 }
 }
